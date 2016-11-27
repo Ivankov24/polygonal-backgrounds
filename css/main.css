@@ -300,8 +300,49 @@ nav li a:hover{
   font-weight: bold;    
 }
 
+footer {
+  background: #c2b58b;
+  color: #293b61;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  border: 1px solid #000;
+  padding: 25px 41px 26px 41px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 
-#293b61
+.social {
+  float: left;
+  margin: left;
 
-#acd0aa;
+}
+
+.social li {
+  float: left;
+  margin-right: 15px;
+   border: 2px solid #acd0aa;
+}
+
+.social a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(../img/sprites.png);
+  background-size: 62px;
+}
+
+.social a.vk {
+  background-position: -1px 0;
+}
+
+.social a.f {
+   background-position: -31px 0;
+}
+
+
+.wrap:after { 
+  content:' ';
+  display: table;
+  clear: both;
+}
